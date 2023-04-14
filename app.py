@@ -4,14 +4,13 @@ import pandas as pd
 import numpy as np
 import datetime
 import time
-import emoji
+
 
 
 def main():
-    e  =emoji.emojize(":grinning_face_with_big_eyes:")
     st.title("Flight-Price-Prediction")
     st.write(" *--Built using StreamLit--* ")
-    st.write(e)
+    
 
     st.sidebar.subheader("Select Departure")
     m = pd.to_datetime("today").month
